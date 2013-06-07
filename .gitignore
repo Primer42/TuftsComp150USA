@@ -61,3 +61,4 @@ nosetests.xml
 *.mtc1
 *.out
 *.synctex.gz
+*.tex.backup
