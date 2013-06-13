@@ -36,6 +36,8 @@ nosetests.xml
 
 # emacs
 *~
+\#*\#
+
 
 #latex
 *.aux
@@ -62,3 +64,4 @@ nosetests.xml
 *.out
 *.synctex.gz
 *.tex.backup
+
