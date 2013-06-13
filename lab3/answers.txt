@@ -1,0 +1,15 @@
+Try running a root command from your shell.
+What happened? 
+You need to be root to perform this command.
+
+The Plan:
+
+I) /etc/sudoers.original
+II) User_Alias FULLTIMERS = wrichard,jerry
+III) Cmnd_Alias SHUTDOWN = /sbin/shutdown
+IV) Host_Alias HOSTS = localhost.localdomain
+V) Defaults:FULLTIMERS    !lecture
+VI) wrichard ALL = (ALL) ALL
+VII) cat ALL = SHUTDOWN
+VIII) wrichard HOSTS = (ALL) ALL
+      tom HOSTS = (ALL) ALL
