@@ -33,13 +33,39 @@ kill -s KILL -p <pid>
 \end{verbatim}
 \end{enumerate}
 
-\section{Hands On Lab}
-\subsection{ps -ef $|$ grep bash $|$ grep -v grep}
-\begin{center}
- \includegraphics[width=\linewidth]{./grepbash.png}
-\end{center}
-\subsection{find\_proc.sh}
+\section{ps -ef $|$ grep bash $|$ grep -v grep}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./grepbash.png}
+  \end{center}
+
+\section{find\_proc.sh}
 \subsubsection{Code}
 \verbatiminput{find_proc.sh}
+\subsection{screenshot}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./find_proc.png}
+  \end{center}
+
+\section{top}
+\subsection{sorted by memory usage}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./topm.png}
+  \end{center}
+\subsection{two infinite processes}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./top_infinite.png}
+  \end{center}
+\subsection{nice infinite process}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./top_nice_infinite.png}
+  \end{center}
+
+\section{login.sh}
+\subsection{code}
+\verbatiminput{login.sh}
+\subsection{screenshot}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./login.png}
+  \end{center}
 
 \end{document}
