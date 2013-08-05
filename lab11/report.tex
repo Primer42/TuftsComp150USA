@@ -12,10 +12,47 @@
 
 \maketitle
 
-\section{DHCP}
+\section{Client Setup}
+\subsection{Centos Client}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./centos-client-hostname.png}
+  \end{center}
+
+\subsection{Centos Client 2}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./centos-client-2-hostname.png}
+  \end{center}
+
+\section{Server setup}
+\subsection{Server Static IP}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./server-ifconfig.png}
+  \end{center}
+
 \subsection{Ping}
   \begin{center}
   \includegraphics[width=\linewidth]{./ping.png}
   \end{center}
+
+\section{DHCP Server}
+\subsection{Client Lease}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./clone-lease.png}
+  \end{center}
+\subsection{Client 2 ifconfig}
+  \begin{center}
+  \includegraphics[width=\linewidth]{./centos-client-2-ifconfig.png}
+  \end{center}
+\subsection{Client Static IP}
+  \subsubsection{DHCP Released}
+    \begin{center}
+    \includegraphics[width=\linewidth]{./dhclient-r.png}
+    \end{center}
+  \subsubsection{Static Lease Acquired}
+    \begin{center}
+    \includegraphics[width=\linewidth]{./dhclient-new-addr.png}
+    \end{center}
+
+
 
 \end{document}
