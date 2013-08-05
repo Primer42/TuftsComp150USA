@@ -1,0 +1,9 @@
+dn: dc=comp150,dc=com
+objectclass: dcObject
+objectclass: organization
+o: Example Company
+dc: comp150
+
+dn: cn=Manager,dc=comp150,dc=com
+objectclass: organizationalRole
+cn: Manager
